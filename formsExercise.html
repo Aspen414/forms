@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+    content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Custormer Experiance Survey">
+
+
+    <title>Custormer Experiance Survey</title>
+</head>
+<body>
+<fieldset>
+    <legend>Custormer Experiance Survey</legend>
+    
+
+    <form>
+        <!-- Select Element -->
+         <!-- Select Elements have opening tags. Must create options elements inside of those tags. -->
+        <lable for="Store Number"> Store Number</lable>
+        <select name="Select A Store" id="Store">
+        <!-- The hidden attribute/keyword will make the option no longer display after the user clicks the select element (AKA Dropdown menu) -->
+         <option hidden> Select A Store</option>
+         <!-- When a form with Select element is submitted/sent the value set for the "value" atribute on the select option is what will be sent-->
+        
+        </select>
+        <fieldset>
+            <legend>When you visited</legend>
+            <label for="Date visited">Date visited</label>
+            <input type="date"> <br>
+
+            <label for="Time">Time</label>
+            <input type="time" <br>
+
+        </fieldset>
+
+        <label for="Full Name">Full Name</label>
+        <input type="text"> <br>
+        <label for="Email">Email</label>
+        <input type="text">
+
+        <fieldset>
+            <legend>How would you rate your level of satisfaction with your visit?</legend> <br>
+            <input type="radio"> 
+            <label for="Satisfide">Satisfide</label> <br>
+            <input type="radio">
+            <label for="Nether Satisfide Nor Dissatisfied">Nether Satisfide Nor Dissatisfied</label> <br>
+            <input type="radio">
+            <label for="Dissatisfied">Dissatisfied</label>
+        </fieldset>
+        <p>Tell us about your Experiance:</p>
+        <input type="text"> <br>
+        <p>Times visited in the last month:</p>
+        <input type="text"> <br>
+        <input type="checkbox">
+        <label for="Please check the box if you are willing to be contacted about your Experiance">Please check the box if you are willing to be contacted about your Experiance</label> <br>
+        <label for="Password">Password</label> <br>
+        <input type="text">
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+    </fieldset>
+</body>
+</html>
